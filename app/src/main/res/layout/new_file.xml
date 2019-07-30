@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:paddingLeft="3dp"
+    android:paddingRight="3dp"
+    android:paddingBottom="3dp"
+    android:background="#0080ff">
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="5dp"
+        android:gravity="center"
+        xmlns:android="http://schemas.android.com/apk/res/android" >
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="New Page..."
+            android:textSize="18sp"
+            android:background="#0080ff"
+            android:textColor="#eee"
+            android:gravity="left"
+            android:fontFamily="casual"
+            android:textStyle="bold"
+            />
+
+        <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+            android:textAllCaps="true"
+        android:text="Drawing will be Lost !"
+        android:textSize="35sp"
+            android:textColor="#000"
+        android:background="#fdea5c"
+        android:gravity="center"
+        android:fontFamily="casual"
+        android:textStyle="bold"
+        />
+
+
+  <LinearLayout
+      android:orientation="horizontal"
+      android:layout_width="match_parent"
+      android:gravity="center"
+      android:background="#67fff7"
+      android:layout_height="wrap_content">
+      <Button
+          android:id="@+id/yes"
+          android:layout_width="wrap_content"
+          android:layout_weight="1"
+          android:layout_height="wrap_content"
+          android:fontFamily="casual"
+          android:gravity="center"
+          android:text="Yes"
+          android:background="#65ff3a"
+          android:textSize="30sp"
+          android:textStyle="bold"
+          app:layout_constraintBottom_toBottomOf="parent"
+          app:layout_constraintEnd_toEndOf="parent"
+          app:layout_constraintHorizontal_bias="0.498"
+          app:layout_constraintStart_toStartOf="parent"
+          app:layout_constraintTop_toTopOf="parent"
+          app:layout_constraintVertical_bias="0.679" />
+
+      <Button
+          android:id="@+id/no"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_weight="1"
+          android:fontFamily="casual"
+          android:gravity="center"
+          android:background="#ff413a"
+
+          android:text="no"
+          android:textSize="30sp"
+          android:textStyle="bold"
+          app:layout_constraintBottom_toBottomOf="parent"
+          app:layout_constraintEnd_toEndOf="parent"
+          app:layout_constraintHorizontal_bias="0.498"
+          app:layout_constraintStart_toStartOf="parent"
+          app:layout_constraintTop_toTopOf="parent"
+          app:layout_constraintVertical_bias="0.864" />
+
+  </LinearLayout>
+
+</LinearLayout>
+</android.support.constraint.ConstraintLayout>
